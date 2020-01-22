@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+}
+.god{
+    color:white;
+    font-size: 27px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+body{
+    background-color: #0A0908;
+
+}
+#pre{
+    text-align: center;
+    font-size:17px;
+    color: #E3F3F7;
+    transform: translateX(-40px);
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+}
+#main{
+    text-align: center;
+    font-size: 12vw;
+    font-weight: bold;
+    color: #EFF5F7;
+    margin-top: -40px;
+    transform: translateX(-48px);
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    background-color: #8093F1;
+
+}
+.material-icons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vw;
+}
+.box{
+    text-align:center;
+}
+
+
+.semicircle{
+    background-color:#FCDC4D;
+    height:200px;
+    width:120px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-left: auto;
+    margin-top: -20px;
+    opacity: .8;
+    transform: rotate(30deg);
+    
+
+    animation-name: yel;
+    animation-duration: 4s;
+    animation-delay: -1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes yel{
+    0%{transform: translateY(0); }
+    100%{transform: translateY(-40px);}
+    
+    
+}
+.cyclender{
+    background-color:#9A031E;
+    height:200px;
+    width:100px;
+    border-bottom-left-radius:50px;
+    border-top-left-radius:50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-left: 0px;
+    float: left;
+    
+
+    animation-name: cyc;
+    animation-duration: 3s;
+    animation-delay: -2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes cyc{
+    0%{transform: rotate(50deg); }
+    100%{transform: rotate(120deg)}
+    
+    
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 0;
+    border-bottom: 30px solid #666699;
+    border-left: 20px solid transparent; 
+    border-right: 20px solid transparent;
+    margin-left: 50px;
+    -moz-transform: scale(.9999);
+
+    animation-name: tri;
+    animation-duration: 10s;
+    animation-delay: -2s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+@keyframes tri{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(380deg);}
+}
+
+.circle1{
+    background-color:#A4A9AD;
+    height:80px;
+    width:80px;
+    border-radius: 40px;
+    z-index: -3;
+    position: relative;
+    float: right;
+    opacity: .8;
+    margin-right: 10px;
+    
+    
+    
+    
+}
+.rectangle{
+    background-color:#90A959;
+    height:40vw;
+    width:25vw;
+    position: relative;
+    max-height:300px ;
+    max-width: 200px;
+    border-radius: 25px;
+    
+    float: right;
+    
+    
+    z-index: -2;
+    opacity: .8;
+    
+    animation-name: rect;
+    animation-duration: 5s;
+    animation-delay: -2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes rect{
+    0%{transform: translateX(150px);}
+    100%{transform: translateX(300px);}
+}
